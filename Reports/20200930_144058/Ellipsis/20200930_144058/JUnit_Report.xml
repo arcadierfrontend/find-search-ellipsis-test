@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ellipsis" time="82.731" tests="1" failures="1" errors="0">
+   <testsuite name="Ellipsis" tests="1" failures="1" errors="0" time="82.731" timestamp="2020-09-30 14:41:10" hostname="martinrahardja - 192.168.100.3" id="Test Suites/Ellipsis">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/martinrahardja/Documents/Github/find-search-ellipsis-test/Reports/20200930_144058/Ellipsis/20200930_144058"/>
+         <property name="logFiles" value="/Users/martinrahardja/Documents/Github/find-search-ellipsis-test/Reports/20200930_144058/Ellipsis/20200930_144058/execution0.log"/>
+         <property name="attachments" value="/Users/martinrahardja/Documents/Github/find-search-ellipsis-test/Reports/20200930_144058/Ellipsis/20200930_144058/1601451751209.png, /Users/martinrahardja/Documents/Github/find-search-ellipsis-test/Reports/20200930_144058/Ellipsis/20200930_144058/1601451751866.png"/>
+         <property name="hostName" value="martinrahardja - 192.168.100.3"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.100.3"/>
+         <property name="sessionId" value="641638d59eed9e081c838bc161d72e4f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Descrition Ellipsis Text/TEST CASE/TC_ELLIPSIS_UI_001" time="81.722" classname="Test Cases/Descrition Ellipsis Text/TEST CASE/TC_ELLIPSIS_UI_001" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Descrition Ellipsis Text/TEST CASE/TC_ELLIPSIS_UI_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_ELLIPSIS_UI_001.run(TC_ELLIPSIS_UI_001:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601451658364.run(TempTestSuite1601451658364.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'ITEMPROD2' and expected text 'uploaded in Automated Immunoassay subcat' of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-09-30 14:41:10 - [TEST_CASE][FAILED] - Test Cases/Descrition Ellipsis Text/TEST CASE/TC_ELLIPSIS_UI_001: Test Cases/Descrition Ellipsis Text/TEST CASE/TC_ELLIPSIS_UI_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_ELLIPSIS_UI_001.run(TC_ELLIPSIS_UI_001:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601451658364.run(TempTestSuite1601451658364.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'ITEMPROD2' and expected text 'uploaded in Automated Immunoassay subcat' of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-09-30 14:41:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:41:12 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:41:12 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:41:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:41:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:41:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:41:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:41:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:41:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:41:23 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:41:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:41:24 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:41:24 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:41:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Ellipsis Objects/Page_diagnostics/div_With_ellipsis"), 0): Object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' is visible
+
+2020-09-30 14:41:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:41:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[4]/div/div/div[1]/div[2]/div/div[3]/div[5]/div/div[1]/div[1]/div[count(. | //*[(text() = 'uploaded in Automated Immunoassay subcat' or . = 'uploaded in Automated Immunoassay subcat')]) = count(//*[(text() = 'uploaded in Automated Immunoassay subcat' or . = 'uploaded in Automated Immunoassay subcat')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-30 14:41:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis'. Try using Self-healing.
+
+2020-09-30 14:41:59 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/martinrahardja/Documents/Github/find-search-ellipsis-test/Reports/Self-healing/Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis_XPATH.png
+
+2020-09-30 14:41:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' was broken. Propose an alternative one: '//div[@id='items-list']/div[5]/div/div/div/div'.
+
+2020-09-30 14:41:59 - [MESSAGE][PASSED] - Object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' is visible
+
+2020-09-30 14:41:59 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Ellipsis Objects/Page_diagnostics/div_With_ellipsis"), "uploaded in Automated Immunoassay subcat"): Verify element text of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_ELLIPSIS_UI_001.run(TC_ELLIPSIS_UI_001:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601451658364.run(TempTestSuite1601451658364.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'ITEMPROD2' and expected text 'uploaded in Automated Immunoassay subcat' of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-09-30 14:42:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[4]/div/div/div[1]/div[2]/div/div[3]/div[5]/div/div[1]/div[1]/div[count(. | //*[(text() = 'uploaded in Automated Immunoassay subcat' or . = 'uploaded in Automated Immunoassay subcat')]) = count(//*[(text() = 'uploaded in Automated Immunoassay subcat' or . = 'uploaded in Automated Immunoassay subcat')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-30 14:42:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis'. Try using Self-healing.
+
+2020-09-30 14:42:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' was broken. Propose an alternative one: '//div[@id='items-list']/div[5]/div/div/div/div'.
+
+2020-09-30 14:42:31 - [MESSAGE][FAILED] - Actual text 'ITEMPROD2' and expected text 'uploaded in Automated Immunoassay subcat' of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'ITEMPROD2' and expected text 'uploaded in Automated Immunoassay subcat' of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_ELLIPSIS_UI_001.run(TC_ELLIPSIS_UI_001:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601451658364.run(TempTestSuite1601451658364.groovy:39)
+)
+[[ATTACHMENT|/Users/martinrahardja/Documents/Github/find-search-ellipsis-test/Reports/20200930_144058/Ellipsis/20200930_144058/1601451751209.png]]
+
+2020-09-30 14:42:32 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_ELLIPSIS_UI_001.run(TC_ELLIPSIS_UI_001:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601451658364.run(TempTestSuite1601451658364.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'ITEMPROD2' and expected text 'uploaded in Automated Immunoassay subcat' of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/martinrahardja/Documents/Github/find-search-ellipsis-test/Reports/20200930_144058/Ellipsis/20200930_144058/1601451751866.png]]]]></system-out>
+         <system-err><![CDATA[2020-09-30 14:41:10 - [TEST_CASE][FAILED] - Test Cases/Descrition Ellipsis Text/TEST CASE/TC_ELLIPSIS_UI_001: Test Cases/Descrition Ellipsis Text/TEST CASE/TC_ELLIPSIS_UI_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_ELLIPSIS_UI_001.run(TC_ELLIPSIS_UI_001:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601451658364.run(TempTestSuite1601451658364.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'ITEMPROD2' and expected text 'uploaded in Automated Immunoassay subcat' of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-30 14:41:10 - [TEST_SUITE][FAILED] - Ellipsis: Test Cases/Descrition Ellipsis Text/TEST CASE/TC_ELLIPSIS_UI_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_ELLIPSIS_UI_001.run(TC_ELLIPSIS_UI_001:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601451658364.run(TempTestSuite1601451658364.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'ITEMPROD2' and expected text 'uploaded in Automated Immunoassay subcat' of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-09-30 14:41:10 - [TEST_SUITE][FAILED] - Ellipsis: Test Cases/Descrition Ellipsis Text/TEST CASE/TC_ELLIPSIS_UI_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at TC_ELLIPSIS_UI_001.run(TC_ELLIPSIS_UI_001:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601451658364.run(TempTestSuite1601451658364.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'ITEMPROD2' and expected text 'uploaded in Automated Immunoassay subcat' of test object 'Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

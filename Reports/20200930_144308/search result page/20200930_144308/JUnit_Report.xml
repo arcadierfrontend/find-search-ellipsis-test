@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="search result page" time="141.952" tests="15" failures="0" errors="0">
+   <testsuite name="search result page" tests="15" failures="0" errors="0" time="141.952" timestamp="2020-09-30 14:43:18" hostname="martinrahardja - 192.168.100.3" id="Test Suites/search result page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/martinrahardja/Documents/Github/find-search-ellipsis-test/Reports/20200930_144308/search result page/20200930_144308"/>
+         <property name="logFiles" value="/Users/martinrahardja/Documents/Github/find-search-ellipsis-test/Reports/20200930_144308/search result page/20200930_144308/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="martinrahardja - 192.168.100.3"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.100.3"/>
+         <property name="sessionId" value="38f78ee7f60f8906763d6ab272a2d128"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_001" time="13.728" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_001" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:43:19 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_001: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_001
+
+2020-09-30 14:43:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:43:19 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:43:20 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:43:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:43:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:43:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:43:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:43:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:43:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:43:28 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:43:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:43:29 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:43:29 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:43:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/div_item_list"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/div_item_list' is visible
+
+2020-09-30 14:43:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:43:32 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/div_item_list' is visible
+
+2020-09-30 14:43:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:43:32 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:43:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:43:32 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:43:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_002" time="9.393" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_002" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:43:32 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_002: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_002
+
+2020-09-30 14:43:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:43:33 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:43:33 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:43:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:43:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:43:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:43:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:43:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:43:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:43:38 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:43:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:43:39 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:43:39 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:43:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/div_filter-collection"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/div_filter-collection' is visible
+
+2020-09-30 14:43:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:43:41 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/div_filter-collection' is visible
+
+2020-09-30 14:43:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:43:41 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:43:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:43:42 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:43:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_003" time="8.753" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_003" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:43:42 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_003: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_003
+
+2020-09-30 14:43:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:43:42 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:43:42 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:43:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:43:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:43:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:43:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:43:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:43:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:43:47 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:43:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:43:48 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:43:48 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:43:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/div_items_found"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/div_items_found' is visible
+
+2020-09-30 14:43:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:43:50 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/div_items_found' is visible
+
+2020-09-30 14:43:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:43:50 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:43:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:43:50 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:43:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_004" time="9.426" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_004" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:43:50 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_004: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_004
+
+2020-09-30 14:43:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:43:51 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:43:51 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:43:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:43:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:43:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:43:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:43:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:43:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:43:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:43:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Searchbar"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Searchbar' is visible
+
+2020-09-30 14:43:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:00 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Searchbar' is visible
+
+2020-09-30 14:44:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:44:00 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:44:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:44:00 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:44:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_005" time="9.047" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_005" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:44:00 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_005: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_005
+
+2020-09-30 14:44:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:00 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:44:00 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:44:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:44:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:06 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:44:06 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:44:06 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:44:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/Range_Slider"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/Range_Slider' is visible
+
+2020-09-30 14:44:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:09 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/Range_Slider' is visible
+
+2020-09-30 14:44:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:44:09 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:44:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:44:09 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:44:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_006" time="8.949" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_006" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:44:09 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_006: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_006
+
+2020-09-30 14:44:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:09 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:44:09 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:44:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:44:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:14 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:14 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:44:15 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:44:15 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:44:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/div_filter-collection"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/div_filter-collection' is visible
+
+2020-09-30 14:44:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:18 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/div_filter-collection' is visible
+
+2020-09-30 14:44:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:44:18 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:44:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:44:18 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:44:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_007" time="9.188" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_007" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:44:18 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_007: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_007
+
+2020-09-30 14:44:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:18 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:44:18 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:44:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:44:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:24 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:44:24 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:44:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/item_sort"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/item_sort' is visible
+
+2020-09-30 14:44:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:27 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/item_sort' is visible
+
+2020-09-30 14:44:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:44:27 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:44:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:44:27 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:44:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_008" time="8.874" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_008" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:44:27 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_008: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_008
+
+2020-09-30 14:44:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:27 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:44:27 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:44:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:44:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:44:33 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:44:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:44:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/div_filter-actions_container"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/div_filter-actions_container' is visible
+
+2020-09-30 14:44:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:36 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/div_filter-actions_container' is visible
+
+2020-09-30 14:44:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:44:36 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:44:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:44:36 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:44:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_009" time="8.607" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_009" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:44:36 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_009: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_009
+
+2020-09-30 14:44:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:36 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:44:36 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:44:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:44:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:41 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:41 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:44:42 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:44:42 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:44:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/btn_Reset"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/btn_Reset' is visible
+
+2020-09-30 14:44:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:44 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/btn_Reset' is visible
+
+2020-09-30 14:44:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:44:44 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:44:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:44:45 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:44:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_010" time="8.893" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_010" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:44:45 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_010: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_010
+
+2020-09-30 14:44:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:45 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:44:45 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:44:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:44:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:50 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:50 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:44:50 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:44:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/btn_Apply-filter"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/btn_Apply-filter' is visible
+
+2020-09-30 14:44:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:53 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/btn_Apply-filter' is visible
+
+2020-09-30 14:44:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:44:53 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:44:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:44:53 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:44:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_011" time="9.189" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_011" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:44:53 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_011: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_011
+
+2020-09-30 14:44:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:54 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:44:54 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:44:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:44:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:44:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:44:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:44:59 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:44:59 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:45:00 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:45:00 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:45:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/div_Filter_tag"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/div_Filter_tag' is visible
+
+2020-09-30 14:45:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:45:02 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/div_Filter_tag' is visible
+
+2020-09-30 14:45:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:45:02 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:45:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:45:03 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:45:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_012" time="9.804" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_012" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:45:03 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_012: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_012
+
+2020-09-30 14:45:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:45:03 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:45:03 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:45:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:45:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:45:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:45:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:45:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:45:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:45:09 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:45:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:45:09 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:45:09 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:45:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/div_Categories_container"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/div_Categories_container' is visible
+
+2020-09-30 14:45:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:45:12 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/div_Categories_container' is visible
+
+2020-09-30 14:45:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:45:12 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:45:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:45:12 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:45:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_013" time="9.006" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_013" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:45:12 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_013: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_013
+
+2020-09-30 14:45:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:45:13 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:45:13 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:45:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:45:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:45:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:45:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:45:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:45:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:45:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:45:18 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:45:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/btn_catergory"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/btn_catergory' is visible
+
+2020-09-30 14:45:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/btn_catergory' is visible
+
+2020-09-30 14:45:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:45:21 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:45:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:45:21 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:45:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_014" time="8.564" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_014" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:45:21 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_014: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_014
+
+2020-09-30 14:45:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:45:22 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:45:22 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:45:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:45:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:45:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:45:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:45:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:45:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:45:27 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:45:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:45:27 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:45:27 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:45:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/btn_catergory"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/btn_catergory' is visible
+
+2020-09-30 14:45:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:45:30 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/btn_catergory' is visible
+
+2020-09-30 14:45:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:45:30 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:45:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:45:30 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:45:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_015" time="9.929" classname="Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_015" status="PASSED">
+         <system-out><![CDATA[2020-09-30 14:45:30 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_015: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_015
+
+2020-09-30 14:45:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/OPEN BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:45:30 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER: Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER
+
+2020-09-30 14:45:30 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:45:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-30 14:45:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-30 14:45:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/'
+
+2020-09-30 14:45:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/OPEN BROWSER' successfully
+
+2020-09-30 14:45:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:45:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:45:36 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is visible
+
+2020-09-30 14:45:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:45:36 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clickable
+
+2020-09-30 14:45:36 - [TEST_STEP][PASSED] - setText(findTestObject("Search Objects/Page_diagnostics/input.Keywords-filter"), "COVID19"): Text 'COVID19' is set on object 'Object Repository/Search Objects/Page_diagnostics/input.Keywords-filter'
+
+2020-09-30 14:45:37 - [MESSAGE][PASSED] - Text 'COVID19' is set on object 'Object Repository/Search Objects/Page_diagnostics/input.Keywords-filter'
+
+2020-09-30 14:45:37 - [TEST_STEP][PASSED] - click(findTestObject("Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find")): Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find' is clicked on
+
+2020-09-30 14:45:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search Objects/Page_diagnostics/span_Result"), 0): Object 'Object Repository/Search Objects/Page_diagnostics/span_Result' is visible
+
+2020-09-30 14:45:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-30 14:45:39 - [MESSAGE][PASSED] - Object 'Object Repository/Search Objects/Page_diagnostics/span_Result' is visible
+
+2020-09-30 14:45:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Search Objects/Page_diagnostics/span_Result"), "COVID19"): Actual text and expected text of test object 'Object Repository/Search Objects/Page_diagnostics/span_Result' are matched.
+
+2020-09-30 14:45:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search Objects/Page_diagnostics/span_Result' are matched.
+
+2020-09-30 14:45:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Search Page/UTILITIES/CLOSE BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully
+
+2020-09-30 14:45:40 - [TEST_CASE][PASSED] - Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER: Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER
+
+2020-09-30 14:45:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-30 14:45:40 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-30 14:45:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Search Page/UTILITIES/CLOSE BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-30 14:43:18 - [TEST_SUITE][PASSED] - search result page: Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_015]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

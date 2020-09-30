@@ -7,7 +7,7 @@
       "proposedLocator": "//div[@id\u003d\u0027items-list\u0027]/div[5]/div/div/div/div",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis_XPATH.png"
+      "pathToScreenshot": "Reports/20200930_144058/Ellipsis/20200930_144058/Object Repository/Ellipsis Objects/Page_diagnostics/div_With_ellipsis_XPATH.png"
     }
   ]
 }
