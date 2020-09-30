@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_filter-collection</name>
+   <tag></tag>
+   <elementGuidId>80e193a4-1315-4a4b-a03f-e2346aad6cfb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.filter-collection</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react_0HM30CQSISOL2']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>filter-collection</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Search result for ''Filters PRICE RANGE0 : 2000 USD $0USD $2000Regulatory approval Australia TGABrazil ANVISACE-IVDChina NMPAChina NMPA EUAHealth CanadaIndia CDSCOIndia DCGIKorea MFDS EUAMalaysia MDANorway MNARUOSaudi FDASingapore HSASri Lanka NMRATaiwan FDAUS FDAUS FDA EUAWHO EULNoneProcurement optionsProcure from other agenciesProcure directly from sellerProcure through FINDRegulatory approval Australia TGABrazil ANVISACE-IVDChina NMPAChina NMPA EUAHealth CanadaIndia CDSCOIndia DCGIKorea MFDS EUAMalaysia MDANorway MNARUOSaudi FDASingapore HSASri Lanka NMRATaiwan FDAUS FDAUS FDA EUAWHO EULNoneProcurement optionsProcure from other agenciesProcure directly from sellerProcure through FIND</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HM30CQSISOL2&quot;)/div[1]/div[@class=&quot;combined-collection&quot;]/div[@class=&quot;filter-collection&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react_0HM30CQSISOL2']/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN IN'])[2]/following::div[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BE A SELLER'])[2]/following::div[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

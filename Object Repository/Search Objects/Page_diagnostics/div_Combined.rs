@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Combined</name>
+   <tag></tag>
+   <elementGuidId>11457e64-a5d4-40d8-a2b9-71704de9bae7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.combined-collection</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react_0HM30CQSISOKD']/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'combined-collection']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>combined-collection</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Search result for ''Filters PRICE RANGE0 : 2000 USD $0USD $2000Regulatory approval Australia TGABrazil ANVISACE-IVDChina NMPAChina NMPA EUAHealth CanadaIndia CDSCOIndia DCGIKorea MFDS EUAMalaysia MDANorway MNARUOSaudi FDASingapore HSASri Lanka NMRATaiwan FDAUS FDAUS FDA EUAWHO EULNoneProcurement optionsProcure from other agenciesProcure directly from sellerProcure through FINDRegulatory approval Australia TGABrazil ANVISACE-IVDChina NMPAChina NMPA EUAHealth CanadaIndia CDSCOIndia DCGIKorea MFDS EUAMalaysia MDANorway MNARUOSaudi FDASingapore HSASri Lanka NMRATaiwan FDAUS FDAUS FDA EUAWHO EULNoneProcurement optionsProcure from other agenciesProcure directly from sellerProcure through FINDALL CATEGORIES Search >  COVID-19 diagnostics  Antigen (Ag) RDTManual immunoassay/ELISAAutomated immunoassay/ELISAAntibody (Ab) RDTManual immunoassay/ELISAAutomated immunoassay/ELISAMolecular assays (NAT) AutomatedManualSelf-collection kitSequencingMolecular diagnostics (centralized, cartridge-based, line probe assays)Liquid cultureSolid culture Rapid speciation (RDT kits) LTBI (IGRA, Skin tests)LAM (Urine LAM)Chest Xray (stationary systems, portable systems, CAD)Stool processing solutions MicroscopyPPEGlucose meters Strips LancetsRDTsAutomated molecular tests 2020Manual molecular tests 2020Supplemental assaysEnzyme immunoassays Self-testsPlatforms Cartridges RDTsImmunoassaysMolecular testsInstrumentsReagentsAntigen RDTs 2020G6PDd analyzerG6PDd test deviceG6PDd RDTMolecular diagnostic30 items foundItem-NewestItem-OldestPrice-LowestPrice-HighestRating - HighestRating - Lowest item1600990526123456Random Descriptionitem1600932629123456Random Descriptionuploaded in Automated Immunoassay subcattestEx-works: USD $120.00 (Indicative)testCOVID(AgencyDirect)COVID001Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Covid19 category _item AtestSputnik000Ex-works: USD $4.00 (Indicative)sampleRapid Kit 0001RPD0001Ex-works: USD $3.50 (Indicative)sampleitem1598418357123456Random DescriptionCovid 19 Rapid Test KitEx-works: USD $150.00 (Indicative)test Descriptionitem1598404900123456Random Descriptionitem1598403415123456Random DescriptionItem Covid19 StockItem Covid19 StockCovidItem1123CovidItem1XPRSARS-COV2-10Ex-works: USD $198.00 (Indicative)Cost per kit (10 tests). A rapid, near-patient test for the detection of the 2019 novel coronavirus that causes COVID-19
+Cepheid has developed an automated molecular test for the qualitative detection of SARS-CoV-2, the virus that causes COVID-19. The test leverages the design principles of our current Xpert® Xpress Flu/RSV cartridge technology, in which multiple regions of the viral genome are targeted. The test can provide rapid detection of the current pandemic coronavirus SARS-CoV-2 in as soon as 30 minutes for positive results* with less than a minute of hands on time to prepare the sample. FacemasksA surgical mask is a loose-fitting, disposable device that creates a physical barrier between the mouth and nose of the wearer and potential contaminants in the immediate environment. These are often referred to as face masks, although not all face masks are regulated as surgical masksRapid Test KitThis novel coronavirus disease COVID-19 IgM Rapid Test Kit is based on double sandwich lateral flow immunoassay to detect total antibody of SARS-COV-2. It can be used as an aiding tool for RT-PCR testing. Clinical diagnosis shall be done according to the doctor.SARS-CoV-2 Nucleic Acid TestEx-works: USD $240.00 (Indicative)48 tests/kit. STANDARD M nCoV Real-Time Detection KitEx-works: USD $1,632.00 (Indicative)96 / kit. RIDA® GENE SARS-CoV-2 RUO (PG6815RUO)Ex-works: USD $430.53 (Indicative)-genesig Real-Time PCR COVID-19Ex-works: USD $1,034.97 (Indicative)96 tests/kit.RADI COVID-19 Detection Kit and RADI COVID-19 Triple Detection Kit-Ex-works: USD $800.00 (Indicative)100 tests/kit.The Novel Coronavirus (2019-nCoV) Nucleic Acid Test KitEx-works: USD $767.01 (Indicative)96 tests/kit. EURORealTime SARS-CoV-2-Ex-works: USD $2,525.83 (Indicative)-VIASURE SARS-CoV-2 S gene Real Time PCR Detection KitEx-works: USD $875.52 (Indicative)96 rxns. VIASURE SARS-CoV-2 Real Time PCR Detection KitEx-works: USD $875.52 (Indicative)96 rxns. SARS-COV-2 R-GENE® (ref 423720)Ex-works: USD $875.52 (Indicative)-SARS-COV-2 R-GENE® (ref 423717)Ex-works: USD $875.52 (Indicative)-Real-time fluorescent RT-PCR kit for detecting 2019 nCoVEx-works: USD $750.00 (Indicative)50 tests/kit. Atila iAMP COVID-2019 Detection KitEx-works: USD $1,299.00 (Indicative)100 tests/kit. Allplex 2019-nCoV assayEx-works: USD $18.17 (Indicative)-Load More</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HM30CQSISOKD&quot;)/div[1]/div[@class=&quot;combined-collection&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react_0HM30CQSISOKD']/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN IN'])[2]/following::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BE A SELLER'])[2]/following::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

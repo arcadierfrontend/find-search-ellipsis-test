@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Categories_container</name>
+   <tag></tag>
+   <elementGuidId>40f04d25-aeed-487a-b055-575ea6bdd3d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react_0HM3381N2O7B3']/div/div/div[2]/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.category-menu.affix-top</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>category-menu affix-top</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-spy</name>
+      <type>Main</type>
+      <value>affix</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-offset-top</name>
+      <type>Main</type>
+      <value>48</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ALL CATEGORIES Search >  COVID-19 diagnostics  Antigen (Ag) RDTManual immunoassay/ELISAAutomated immunoassay/ELISAAntibody (Ab) RDTManual immunoassay/ELISAAutomated immunoassay/ELISAMolecular assays (NAT) AutomatedManualSelf-collection kitSequencingMolecular diagnostics (centralized, cartridge-based, line probe assays)Liquid cultureSolid culture Rapid speciation (RDT kits) LTBI (IGRA, Skin tests)LAM (Urine LAM)Chest Xray (stationary systems, portable systems, CAD)Stool processing solutions MicroscopyPPEGlucose meters Strips LancetsRDTsAutomated molecular tests 2020Manual molecular tests 2020Supplemental assaysEnzyme immunoassays Self-testsPlatforms Cartridges RDTsImmunoassaysMolecular testsInstrumentsReagentsAntigen RDTs 2020G6PDd analyzerG6PDd test deviceG6PDd RDTMolecular diagnostic</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HM3381N2O7B3&quot;)/div[1]/div[@class=&quot;combined-collection&quot;]/div[@class=&quot;item-list-section&quot;]/div[@class=&quot;container&quot;]/div[1]/div[@class=&quot;pull-left filter-tag&quot;]/div[@class=&quot;category-menu affix-top&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react_0HM3381N2O7B3']/div/div/div[2]/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Procure through FIND'])[2]/following::div[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Procure directly from seller'])[2]/following::div[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>
