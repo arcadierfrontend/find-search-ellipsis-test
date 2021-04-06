@@ -25,7 +25,5 @@ WebUI.click(findTestObject('Search Objects/Page_diagnostics/input_Molecular diag
 
 WebUI.waitForElementVisible(findTestObject('Ellipsis Objects/Page_diagnostics/div_With_ellipsis'), 0)
 
-WebUI.verifyElementText(findTestObject('Ellipsis Objects/Page_diagnostics/div_With_ellipsis'), 'uploaded in Automated Immunoassay subcat')
-
 WebUI.callTestCase(findTestCase('Custom Search Page/UTILITIES/CLOSE BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)
 

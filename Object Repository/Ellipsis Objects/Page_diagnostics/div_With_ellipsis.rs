@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='items-list']/div[5]/div/div/div/div</value>
+         <value>//div[@id='items-list']/div/div/div[2]/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.item-box.col-md-3.col-sm-4.col-xs-6.find-flag > div.item-box-inner > div.item-box-top > div.item-name.ellipsis > div</value>
+         <value>div.item-description</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,52 +24,80 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>uploaded in Automated Immunoassay subcat</value>
+      <value>item-description</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ellipsis</name>
+      <type>Main</type>
+      <value>3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas sagittis pulvinar. Aenean efficitur mi et odio tristique tincidunt. Sed faucibus imperdiet erat, in eleifend orci tincidunt in. Phasellus in cursus augue. Donec sodales neq...</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[4]/div/div/div[1]/div[2]/div/div[3]/div[5]/div/div[1]/div[1]/div</value>
+      <value>id(&quot;items-list&quot;)/div[@class=&quot;item-box col-md-3 col-sm-4 col-xs-6&quot;]/div[@class=&quot;item-box-inner&quot;]/div[@class=&quot;item-box-bottom&quot;]/div[@class=&quot;item-description&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='items-list']/div[5]/div/div/div/div</value>
+      <value>//div[@id='items-list']/div/div/div[2]/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='COVID001'])[4]/following::div[9]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Indicative)'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='COVID(AgencyDirect)'])[1]/following::div[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='USD $100.00'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='test'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FIN-179'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ex-works:'])[2]/preceding::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas sagittis pulvinar. Aenean efficitur mi et odio tristique tincidunt. Sed faucibus imperdiet erat, in eleifend orci tincidunt in. Phasellus in cursus augue. Donec sodales neq...']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[5]/div/div/div/div</value>
+      <value>//div[4]/div/div/div[2]/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>
