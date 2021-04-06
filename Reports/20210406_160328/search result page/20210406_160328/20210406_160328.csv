@@ -1,0 +1,124 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+search result page,Chrome 89.0.4389.114,,,2021-04-06 16:03:40,2021-04-06 16:08:38,4m - 58.306s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_001,Chrome 89.0.4389.114,,,2021-04-06 16:03:40,2021-04-06 16:04:00,20.359s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:03:40,2021-04-06 16:03:54,13.544s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:03:54,2021-04-06 16:03:56,1.865s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:03:56,2021-04-06 16:03:56,0.746s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:03:56,2021-04-06 16:03:59,2.071s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/div_item_list""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:03:59,2021-04-06 16:04:00,1.028s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:04:00,2021-04-06 16:04:00,0.866s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_002,Chrome 89.0.4389.114,,,2021-04-06 16:04:00,2021-04-06 16:04:18,17.912s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:04:01,2021-04-06 16:04:13,12.800s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:04:13,2021-04-06 16:04:14,0.870s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:04:14,2021-04-06 16:04:15,0.270s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:04:15,2021-04-06 16:04:17,2.178s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/div_filter-collection""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:04:17,2021-04-06 16:04:18,0.903s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:04:18,2021-04-06 16:04:18,0.730s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_003,Chrome 89.0.4389.114,,,2021-04-06 16:04:18,2021-04-06 16:04:34,16.002s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:04:19,2021-04-06 16:04:29,10.300s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:04:29,2021-04-06 16:04:30,0.996s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:04:30,2021-04-06 16:04:31,1.079s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:04:31,2021-04-06 16:04:33,1.759s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/div_items_found""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:04:33,2021-04-06 16:04:34,1.020s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:04:34,2021-04-06 16:04:34,0.703s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_004,Chrome 89.0.4389.114,,,2021-04-06 16:04:34,2021-04-06 16:04:52,17.708s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:04:35,2021-04-06 16:04:46,11.955s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:04:46,2021-04-06 16:04:48,1.365s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:04:48,2021-04-06 16:04:49,0.861s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:04:49,2021-04-06 16:04:50,1.676s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Searchbar""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:04:50,2021-04-06 16:04:51,1.006s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:04:51,2021-04-06 16:04:52,0.701s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_005,Chrome 89.0.4389.114,,,2021-04-06 16:04:52,2021-04-06 16:05:10,18.373s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:04:52,2021-04-06 16:05:05,12.778s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:05:05,2021-04-06 16:05:06,0.726s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:05:06,2021-04-06 16:05:07,1.370s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:05:07,2021-04-06 16:05:09,1.642s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/Range_Slider""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:05:09,2021-04-06 16:05:10,1.012s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:05:10,2021-04-06 16:05:10,0.698s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_006,Chrome 89.0.4389.114,,,2021-04-06 16:05:10,2021-04-06 16:05:28,17.738s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:05:11,2021-04-06 16:05:23,12.404s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:05:23,2021-04-06 16:05:24,1.020s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:05:24,2021-04-06 16:05:25,0.716s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:05:25,2021-04-06 16:05:26,1.724s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/div_filter-collection""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:05:26,2021-04-06 16:05:27,1.026s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:05:27,2021-04-06 16:05:28,0.711s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_007,Chrome 89.0.4389.114,,,2021-04-06 16:05:28,2021-04-06 16:05:46,17.716s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:05:28,2021-04-06 16:05:40,12.118s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:05:40,2021-04-06 16:05:41,1.011s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:05:41,2021-04-06 16:05:42,0.780s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:05:42,2021-04-06 16:05:44,2.064s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/item_sort""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:05:44,2021-04-06 16:05:45,0.897s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:05:45,2021-04-06 16:05:46,0.695s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_008,Chrome 89.0.4389.114,,,2021-04-06 16:05:46,2021-04-06 16:06:05,18.997s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:05:46,2021-04-06 16:05:59,13.072s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:05:59,2021-04-06 16:06:01,1.883s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:06:01,2021-04-06 16:06:01,0.262s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:06:01,2021-04-06 16:06:03,1.898s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/div_filter-actions_container""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:06:03,2021-04-06 16:06:04,1.029s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:06:04,2021-04-06 16:06:05,0.711s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_009,Chrome 89.0.4389.114,,,2021-04-06 16:06:05,2021-04-06 16:06:23,18.323s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:06:05,2021-04-06 16:06:18,12.760s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:06:18,2021-04-06 16:06:18,0.603s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:06:18,2021-04-06 16:06:19,0.549s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:06:19,2021-04-06 16:06:22,2.534s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/btn_Reset""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:06:22,2021-04-06 16:06:23,1.033s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:06:23,2021-04-06 16:06:23,0.703s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_010,Chrome 89.0.4389.114,,,2021-04-06 16:06:23,2021-04-06 16:06:43,19.601s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:06:23,2021-04-06 16:06:35,11.983s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:06:35,2021-04-06 16:06:37,1.613s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:06:37,2021-04-06 16:06:38,0.718s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:06:38,2021-04-06 16:06:41,3.011s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/btn_Apply-filter""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:06:41,2021-04-06 16:06:42,1.418s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:06:42,2021-04-06 16:06:43,0.706s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_011,Chrome 89.0.4389.114,,,2021-04-06 16:06:43,2021-04-06 16:07:25,41.925s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:06:43,2021-04-06 16:06:55,12.448s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:06:55,2021-04-06 16:06:56,0.866s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:06:56,2021-04-06 16:07:21,24.559s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:07:21,2021-04-06 16:07:23,2.058s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/div_Filter_tag""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:07:23,2021-04-06 16:07:24,1.151s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:07:24,2021-04-06 16:07:25,0.701s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_012,Chrome 89.0.4389.114,,,2021-04-06 16:07:25,2021-04-06 16:07:43,18.274s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:07:25,2021-04-06 16:07:37,12.281s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:07:37,2021-04-06 16:07:39,1.589s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:07:39,2021-04-06 16:07:40,0.727s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:07:40,2021-04-06 16:07:41,1.731s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/div_Categories_container""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:07:41,2021-04-06 16:07:42,1.097s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:07:42,2021-04-06 16:07:43,0.709s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_013,Chrome 89.0.4389.114,,,2021-04-06 16:07:43,2021-04-06 16:08:01,17.944s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:07:43,2021-04-06 16:07:56,12.395s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:07:56,2021-04-06 16:07:56,0.595s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:07:56,2021-04-06 16:07:57,1.272s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:07:57,2021-04-06 16:07:59,1.751s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/btn_catergory""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:07:59,2021-04-06 16:08:00,1.094s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:08:00,2021-04-06 16:08:01,0.690s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_014,Chrome 89.0.4389.114,,,2021-04-06 16:08:01,2021-04-06 16:08:20,18.653s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:08:01,2021-04-06 16:08:14,12.616s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:08:14,2021-04-06 16:08:14,0.498s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:08:14,2021-04-06 16:08:15,0.530s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:08:15,2021-04-06 16:08:18,3.145s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/btn_catergory""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:08:18,2021-04-06 16:08:19,1.016s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:08:19,2021-04-06 16:08:20,0.708s,PASSED
+,,,,,,,
+Test Cases/Custom Search Page/TEST CASE/TC_SEARCH_UI_015,Chrome 89.0.4389.114,,,2021-04-06 16:08:20,2021-04-06 16:08:38,18.544s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/OPEN BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:08:20,2021-04-06 16:08:32,12.450s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:08:32,2021-04-06 16:08:33,1.037s,PASSED
+"verifyElementClickable(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:08:33,2021-04-06 16:08:34,0.542s,PASSED
+"setText(findTestObject(""Search Objects/Page_diagnostics/input.Keywords-filter""), ""COVID19"")",Chrome 89.0.4389.114,,,2021-04-06 16:08:34,2021-04-06 16:08:35,0.702s,PASSED
+"click(findTestObject(""Search Objects/Page_diagnostics/input_Molecular diagnostic_btn-find""))",Chrome 89.0.4389.114,,,2021-04-06 16:08:35,2021-04-06 16:08:36,1.600s,PASSED
+"waitForElementVisible(findTestObject(""Search Objects/Page_diagnostics/span_Result""), 0)",Chrome 89.0.4389.114,,,2021-04-06 16:08:36,2021-04-06 16:08:37,1.093s,PASSED
+"verifyElementText(findTestObject(""Search Objects/Page_diagnostics/span_Result""), ""COVID19"")",Chrome 89.0.4389.114,,,2021-04-06 16:08:37,2021-04-06 16:08:37,0.274s,PASSED
+"callTestCase(findTestCase(""Custom Search Page/UTILITIES/CLOSE BROWSER""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-06 16:08:37,2021-04-06 16:08:38,0.708s,PASSED
